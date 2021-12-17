@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		AAC8C1962769221000A81DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1952769221000A81DD0 /* AppDelegate.swift */; };
 		AAC8C1982769221000A81DD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1972769221000A81DD0 /* SceneDelegate.swift */; };
-		AAC8C19A2769221000A81DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1992769221000A81DD0 /* ViewController.swift */; };
+		AAC8C19A2769221000A81DD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1992769221000A81DD0 /* HomeViewController.swift */; };
 		AAC8C19D2769221000A81DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC8C19B2769221000A81DD0 /* Main.storyboard */; };
 		AAC8C19F2769221200A81DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC8C19E2769221200A81DD0 /* Assets.xcassets */; };
 		AAC8C1A22769221200A81DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC8C1A02769221200A81DD0 /* LaunchScreen.storyboard */; };
+		AAC8C1AA276924FF00A81DD0 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1A9276924FF00A81DD0 /* RecordViewController.swift */; };
+		AAC8C1AC2769251700A81DD0 /* CallAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1AB2769251700A81DD0 /* CallAIViewController.swift */; };
+		AAC8C1AE276925E100A81DD0 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8C1AD276925E100A81DD0 /* VideoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAC8C1922769221000A81DD0 /* TabCameraTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabCameraTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC8C1952769221000A81DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC8C1972769221000A81DD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAC8C1992769221000A81DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAC8C1992769221000A81DD0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AAC8C19C2769221000A81DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAC8C19E2769221200A81DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC8C1A12769221200A81DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAC8C1A32769221200A81DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC8C1A9276924FF00A81DD0 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		AAC8C1AB2769251700A81DD0 /* CallAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAIViewController.swift; sourceTree = "<group>"; };
+		AAC8C1AD276925E100A81DD0 /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				AAC8C1952769221000A81DD0 /* AppDelegate.swift */,
 				AAC8C1972769221000A81DD0 /* SceneDelegate.swift */,
-				AAC8C1992769221000A81DD0 /* ViewController.swift */,
+				AAC8C1992769221000A81DD0 /* HomeViewController.swift */,
+				AAC8C1AD276925E100A81DD0 /* VideoHelper.swift */,
+				AAC8C1A9276924FF00A81DD0 /* RecordViewController.swift */,
+				AAC8C1AB2769251700A81DD0 /* CallAIViewController.swift */,
 				AAC8C19B2769221000A81DD0 /* Main.storyboard */,
 				AAC8C19E2769221200A81DD0 /* Assets.xcassets */,
 				AAC8C1A02769221200A81DD0 /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC8C19A2769221000A81DD0 /* ViewController.swift in Sources */,
+				AAC8C19A2769221000A81DD0 /* HomeViewController.swift in Sources */,
 				AAC8C1962769221000A81DD0 /* AppDelegate.swift in Sources */,
 				AAC8C1982769221000A81DD0 /* SceneDelegate.swift in Sources */,
+				AAC8C1AE276925E100A81DD0 /* VideoHelper.swift in Sources */,
+				AAC8C1AC2769251700A81DD0 /* CallAIViewController.swift in Sources */,
+				AAC8C1AA276924FF00A81DD0 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,10 @@
 				DEVELOPMENT_TEAM = T4JB96P77H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TabCameraTennis/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs to record tennis videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs to record audio for tennis videos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App needs to save tennis videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App needs to load videos from Library (not needed?)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +336,10 @@
 				DEVELOPMENT_TEAM = T4JB96P77H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TabCameraTennis/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs to record tennis videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs to record audio for tennis videos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App needs to save tennis videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App needs to load videos from Library (not needed?)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
